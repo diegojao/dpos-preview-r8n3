@@ -1,1 +1,0 @@
-import{V as e,z as t}from"./formato--8ym-Smf.js";var n=e(t(),1),r=`(min-width: 1024px)`;function i(e){let t=window.matchMedia(r);return t.addEventListener(`change`,e),()=>t.removeEventListener(`change`,e)}var a=()=>(0,n.useSyncExternalStore)(i,()=>window.matchMedia(r).matches);export{a as t};
