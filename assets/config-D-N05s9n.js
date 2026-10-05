@@ -1,1 +1,0 @@
-var e={propina:10,propinaAuto:!1};function t(t){let n=t&&typeof t==`object`?t:{},r=Number(n.propina);return{propina:Number.isFinite(r)&&r>=0&&r<=30?Math.round(r):e.propina,propinaAuto:n.propinaAuto===!0}}export{t};
