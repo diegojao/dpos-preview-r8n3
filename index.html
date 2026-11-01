@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dyne POS</title>
+<script>
+  try {
+    for (const k of Object.keys(localStorage)) if (k.startsWith('sb-') || k.startsWith('dyne.')) localStorage.removeItem(k)
+  } catch (e) {}
+  location.replace('https://dyne-pos.pages.dev' + location.pathname.replace(/^\/dpos-preview-r8n3/, '') + location.search + location.hash)
+</script>
+</head>
+<body><a href="https://dyne-pos.pages.dev">Dyne POS</a></body>
+</html>
